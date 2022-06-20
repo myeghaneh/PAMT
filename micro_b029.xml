@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b029" topic_id="public_broadcasting_fees_on_demand" stance="con">
+  <edu id="e1"><![CDATA[هزینه مجوز تلویزیون/رادیو تنها می تواند برای همه شهروندان/خانوارها به طور مساوی مورد نیاز باشد.]]></edu>
+  <edu id="e2"><![CDATA[منتقدان اشاره می کنند که آنها از پخش عمومی استفاده نمی کنند.]]></edu>
+  <edu id="e3"><![CDATA[من شک دارم که کسی که هرگز به طور غیرمستقیم برنامه های پخش تلویزیونی عمومی را تماشا نکرده است، وجود داشته باشد.]]></edu>
+  <edu id="e4"><![CDATA[با این حال، این امر غیرممکن است که این  موضوع را نظارت کنیم و هزینه های سفارشی بیشتری را جمع آوری کنیم.]]></edu>
+  <edu id="e5"><![CDATA[همانطور که با گزینه های دیگر در فرهنگ یا زیرساخت ها، پخش کنندگان عمومی نیز تامین می شود، صرف نظر از اینکه افراد از برنامه های خود استفاده می کنند یا خیر.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="c2" type="und"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

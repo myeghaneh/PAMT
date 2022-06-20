@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d07">
+  <edu id="e1"><![CDATA[تور فعلی هتل توکیو  در حال زدن تمام  رکورد ها است.]]></edu>
+  <edu id="e2"><![CDATA[هرگز صف هایی به این درازی در دفاتر پیش پرداخت بلیط وجود نداشته است -]]></edu>
+  <edu id="e3"><![CDATA[در ژاپن  صف یکی از آنها بیش از۳.۲  کیلومتر بود -]]></edu>
+  <edu id="e4"><![CDATA[به غیر از این، شاید، در زمان های اوج.]]></edu>
+  <edu id="e5"><![CDATA[.اما حتی گاهی اوقات درگاه های آنلاین فروش با تقاضا تطبیق داده نشده اند]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="exa"/>
+  <edge id="c4" src="a4" trg="a2" type="reb"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

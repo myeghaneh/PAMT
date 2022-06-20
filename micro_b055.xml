@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b055" topic_id="over_the_counter_morning_after_pill" stance="pro">
+  <edu id="e1"><![CDATA[من خودم یک داروساز هستم، ]]></edu>
+  <edu id="e2"><![CDATA[من به طور کلی به نفع در دسترس بودن بیش از حد  قرص اضطراری پیشگیری از بارداری در داروخانه ها استدلال می کنم.]]></edu>
+  <edu id="e3"><![CDATA[از یک چشم انداز پزشکی، قرص اضطراری پیشگیری از بارداری پس از مقاربت، بهترین اثر بخشی را دارد.]]></edu>
+  <edu id="e4"><![CDATA[همیشه اول مجبور به بازدید از دکتر بودن (از جمله سفر و زمان انتظار، خجالت احتمالی، و غیره) منجر به حاملگی های ناخواسته بیشتر می شود. ]]></edu>
+  <edu id="e5"><![CDATA[.بسیاری از مخالفان این قرص اشاره می کنند که این امر  نیاز به مشاوره با پزشک را از بین می برد و بسیاری از زنان آن را بی جهت مصرف می کنند.]]></edu>
+  <edu id="e6"><![CDATA[با این حال، واقعیت این است که ما داروسازان قانوناً موظف هستیم که به بیماران اطلاع دهیم و تخصص موضوعی مشابه پزشکان را داشته باشیم.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+  <edge id="c5" src="a5" trg="a2" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

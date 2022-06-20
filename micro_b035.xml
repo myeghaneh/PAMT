@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b035" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1"><![CDATA[طب مکمل شامل درمان هایی با مزایای سلامتی ثابت شده در بسیاری از زمینه ها است]]></edu>
+  <edu id="e2"><![CDATA[که اغلب هزینه کمتری نسبت به داروهای پزشکی متداول دارند، که در نهایت هزینه آن نیز پرداخت می شود.]]></edu>
+  <edu id="e3"><![CDATA[اغلب درمان های طبیعی فشار زیادی به بیمار وارد نمی کند.]]></edu>
+  <edu id="e4"><![CDATA[چنین درمان هایی اغلب می تواند منجر به بهبود وضعیت از طریق مشارکت فعال بیمار شوند.]]></edu>
+  <edu id="e5"><![CDATA[شرکت های بیمه سلامت باید این امکان را داشته باشند که تصمیم پزشک برای درمان را طبیعی تشخیص دهند و همچنین آن را پوشش دهند.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a5" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

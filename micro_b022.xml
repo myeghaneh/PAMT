@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b022" topic_id="keep_retirement_at_63" stance="con">
+  <edu id="e1"><![CDATA[نه، سن بازنشستگی  باید به ۶۵ سال برسد.]]></edu>
+  <edu id="e2"><![CDATA[مردم به طور متوسط مسن تر می شوند، ]]></edu>
+  <edu id="e3"><![CDATA[اما آنها به این دلیل بیمار و ملال آور نیستند.]]></edu>
+  <edu id="e4"><![CDATA[بدون آنها ما باید یک تجربه بزرگ جمع آوری شده را از دست بدهیم.]]></edu>
+  <edu id="e5"><![CDATA[و ما باید فعالیت های تفریحی بیشتری را برای سالمندان ارائه دهیم.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="c3" type="und"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

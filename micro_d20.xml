@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d20">
+  <edu id="e1"><![CDATA[نمونه اولیه ماشین های ورزشی جدید "آئودی"  دوستداران خودرو را هیجان زده میکند]]></edu>
+  <edu id="e2"><![CDATA[به عنوان ماشینی که تعادلش  را در سرعت های بالاتر از دست می دهد، ]]></edu>
+  <edu id="e3"><![CDATA[سیستم فرمان ممکن است هنوز هم نیاز به کمی بهینه سازی داشته باشد، ]]></edu>
+  <edu id="e4"><![CDATA[و مطمئنا شما می خواهید با با این خشکل سرعت زیادی افزایش دهید.]]></edu>
+  <edu id="e5"><![CDATA[اما به غیر از این؛ برای ماشین بازها هر چیزی که آرزو می کنند را دارد.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

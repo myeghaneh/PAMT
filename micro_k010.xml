@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k010" topic_id="public_broadcasting_fees_on_demand" stance="pro">
+  <edu id="e1"><![CDATA[با توجه به آنچه این روزها در تلویزیون پخش می شود، مناسب است که فقط افرادی پول بدهند که واقعاً (می خواهند) برنامه را دنبال کنند.]]></edu>
+  <edu id="e2"><![CDATA[در برخی موارد فقط نمایش‌ هایی برای نسل‌های قدیمی‌تر در ساعات پربیننده پخش می‌شود، ]]></edu>
+  <edu id="e3"><![CDATA[پس چرا همه باید برای این هزینه بپردازند؟]]></edu>
+  <edu id="e4"><![CDATA[در حال حاضر شما در همه کانال ها تبلیغات دارید، ]]></edu>
+  <edu id="e5"><![CDATA[بنابراین هیچ مزیتی برای بینندگان پولی فعلی پخش کننده های عمومی وجود ندارد. با این وجود، باید اشاره کرد که اگر کل آلمان مجبور به پرداخت نبود، احتمالاً کانال های کمتری وجود داشت.]]></edu>
+  <edu id="e6"><![CDATA[با این حال، با توجه به تعداد زیاد برنامه‌ها و کانال هایی که اساساً چیزهای مشابهی را نشان می‌دهند، این نباید مشکلی باشد.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

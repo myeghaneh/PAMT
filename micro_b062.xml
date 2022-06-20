@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b062" topic_id="keep_retirement_at_63" stance="con">
+  <edu id="e1"><![CDATA[.معتقد نیستم که سن بازنشستگی باید ۶۳ سال در نظر گرفته شود]]></edu>
+  <edu id="e2"><![CDATA[این بدان معناست که سازمان ها در آینده با کمبود نیروی انسانی زیادی مواجه خواهند شد.]]></edu>
+  <edu id="e3"><![CDATA[مرحله مقدماتی بازنشستگی در ۶۳ سالگی نیز چالش خاصی خواهد بود]]></edu>
+  <edu id="e4"><![CDATA[زیرا پس از معرفی، بسیاری از کارکنان فعلی در سنین بالا بلافاصله واجد شرایط بازنشستگی خواهند بود.]]></edu>
+  <edu id="e5"><![CDATA[این برای آلمان به عنوان یک منطقه تجاری مضر است و کارفرمایان را بدون یک دوره گذار باقی می گذارد.]]></edu>
+  <edu id="e6"><![CDATA[.خطر در اینجا این است که کارکنان جوان با تجربه به تعداد کافی در دسترس نیستند]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+  <edge id="c6" src="a6" trg="c4" type="add"/>
+</arggraph>

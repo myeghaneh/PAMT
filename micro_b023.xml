@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b023" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1"><![CDATA[به هیچ انسانی یا کمیته انسانی نباید مجددا اجازه حکومت بر "زندگی یا مرگ" داده شود.]]></edu>
+  <edu id="e2"><![CDATA[دادگاه ها نیز می توانند خطای انسانی داشته باشند.]]></edu>
+  <edu id="e3"><![CDATA[به همین دلیل است که آلمان نباید مجازات اعدام را وضع کند!]]></edu>
+  <edu id="e4"><![CDATA[هر انسان، حتی کسانی که مرتکب جرم و جنایت شده اند، می توانند خود را اصلاح کنند و نظرات خود را تغییر دهند.]]></edu>
+  <edu id="e5"><![CDATA[درب اصلاح  باید همیشه باز بماند.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+  <edge id="c5" src="a5" trg="a3" type="sup"/>
+</arggraph>

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b021" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1"><![CDATA[هزینه های تحصیل نباید در آلمان اخذ شود.]]></edu>
+  <edu id="e2"><![CDATA[درس خواندن و گرفتن درجه بالاتر باید یک حق اساسی برای همه باقی بماند.]]></edu>
+  <edu id="e3"><![CDATA[هزینه ها منجر به افزایش زمان تحصیل می شود.]]></edu>
+  <edu id="e4"><![CDATA[این هزینه بر است!]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

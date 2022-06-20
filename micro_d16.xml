@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d16">
+  <edu id="e1"><![CDATA[به زودی انتخابات پارلمانی است]]></edu>
+  <edu id="e2"><![CDATA[و به طور سنتی حزب حاکم با دادن وعده های عمومی در انتخابات فدرال شرکت می کند.]]></edu>
+  <edu id="e3"><![CDATA[با این وجود، مرکل، رئیس دولت، بهتر است امسال در اعلام بودجه ها خودداری کند.]]></edu>
+  <edu id="e4"><![CDATA[رای دهندگان مشکوکتر شده انده اند.]]></edu>
+  <edu id="e5"><![CDATA[بسیاری از وعده ها عملی نشده است.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+</arggraph>

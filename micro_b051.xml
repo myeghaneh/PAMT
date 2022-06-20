@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b051" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
+  <edu id="e1"><![CDATA[با توجه به افزایش ساعات کار در یکشنبه هاو تعطیلات،افزایش اشتغال وجود دارد.]]></edu>
+  <edu id="e2"><![CDATA[با این حال، عمدتا نیرو های موقت (یعنی دانشجویان، دانش آموزان و غیره) است که به کار گرفته می شوند، ]]></edu>
+  <edu id="e3"><![CDATA[بنابراین این امر به سختی بر سطح اشتغال تمام وقت و تعداد بیکاران تاثیر می گذارد. ]]></edu>
+  <edu id="e4"><![CDATA[علاوه بر این، زندگی خصوصی و خانوادگی به دلیل این کاهش و تغییر در زمان های تعیین شده آسیب می بیند.]]></edu>
+  <edu id="e5"><![CDATA[و این تنها شرکت های بزرگ هستند که می توانند هزینه های اضافی پرسنل را تامین کنند. ]]></edu>
+  <edu id="e6"><![CDATA[به همین دلیل سوپرمارکت ها و مراکز خرید نباید برای کسب و کار در یکشنبه و تعطیلات خودسرانه باز باشند]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="a6" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+</arggraph>

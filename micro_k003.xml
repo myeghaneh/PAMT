@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k003" topic_id="increase_weight_of_BA_thesis_in_final_grade" stance="con">
+  <edu id="e1"><![CDATA[معمولا شما فقط هشت هفته دارید تا پایان نامه لیسانس را در درجه زبان شناسی تکمیل کنید.]]></edu>
+  <edu id="e2"><![CDATA[تنظیم ضریب بالا درمعدل کل بر آن به هر حال  متناسب با سایر تکالیف و امتحانات نخواهد بود.]]></edu>
+  <edu id="e3"><![CDATA[مقررات کنونی برای محاسبه معدل کل باید باقی بماند.]]></edu>
+  <edu id="e4"><![CDATA[در واقع آماده سازی چنین کار علمی، یک صلاحیت اساسی است که باید در دوره های  زبان شناسی تاریخی وتطبیقی به دست آید.]]></edu>
+  <edu id="e5"><![CDATA[.با این حال، در طول شش یا هفت ترم، موضوعاتی پوشش داده شده است که به همین ترتیب هم باید اهمیت داشته باشند]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

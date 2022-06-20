@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b031" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1"><![CDATA[کسی نباید مجازات اعدام در آلمان را دوباره تجدید کند، ]]></edu>
+  <edu id="e2"><![CDATA[زیرا هیچ کس نمی تواند حق حکرمانی بر زندگی یا مرگ انسان دیگری را ادعا کند.]]></edu>
+  <edu id="e3"><![CDATA[مجازات اعدام باعث جلوگیری کس دیگری از ارتکاب یک جنایت نخواهد شد.]]></edu>
+  <edu id="e4"><![CDATA[به همه باید این فرصت را داده باشند تا وجدان خود را تقویت کنند و امکان جبران خطایشان را فراهم آورند.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

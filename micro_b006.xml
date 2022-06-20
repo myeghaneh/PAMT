@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b006" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1"><![CDATA[مجازات اعدام یک وسیله قانونی است که طبیعتا در آلمان امکان پذیر نیست.]]></edu>
+  <edu id="e2"><![CDATA[،به یک دلیل، کرامت انسانی  به صورت غیرقابل انکار در قانون اساسی ما متمرکز است]]></edu>
+  <edu id="e3"><![CDATA[و علاوه بر این هیچ کس نمی تواند حق محکومیت مرگ یک انسان دیگر را داشته باشد.]]></edu>
+  <edu id="e4"><![CDATA[حتی اگر بسیاری از مردم فکر می کنند که یک قاتل قبلا در مورد زندگی یا مرگ فرد دیگری تصمیم گرفته است،]]></edu>
+  <edu id="e5"><![CDATA[این دقیقا جنایاتی است که ما نباید با همان شکل یکسان تلافی کنیم]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

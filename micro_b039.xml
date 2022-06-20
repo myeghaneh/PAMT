@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b039" topic_id="EU_influence_on_political_events_in_Ukraine" stance="pro">
+  <edu id="e1"><![CDATA[اتحادیه اروپا باید بر رویدادهای سیاسی در اوکراین تأثیر بگذارد.]]></edu>
+  <edu id="e2"><![CDATA[تحولات در این درگیری نباید به تنهایی به  قطب های جنگ سرد بازگردانده شود، ]]></edu>
+  <edu id="e3"><![CDATA[زیرا این دوره تنها می تواند منجر به تشدید شدن منازعات در برخی از اشکال شود.]]></edu>
+  <edu id="e4"><![CDATA[علاوه بر این، اوکراین از لحاظ فرهنگی و جغرافیایی بسیار نزدیکتر از کشورهای دیگر اتحادیه اروپا (مورد استفاده) درگیر آن است.]]></edu>
+  <edu id="e5"><![CDATA[در واقع می توان استدلال کرد که یک کشور باید با تغییرات سیاسی داخلی خود مقابله کند، ]]></edu>
+  <edu id="e6"><![CDATA[اما قدرت سیاسی نیز مسئولیت سیاسی را به دست می آورد، در این مورد مسئولیت حفاظت از مردم اوکراین از منافع دو قدرت بزرگ  قوی تر است]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

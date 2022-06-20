@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b017" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1"><![CDATA[قیمت اجاره باید توسط یک سقف محدود شود، زمانی که تغییر مستاجر وجود دارد.]]></edu>
+  <edu id="e2"><![CDATA[صاحبخانه ها ممکن است بخواهند تا آنجا که ممکن است سود کسب کنند، ]]></edu>
+  <edu id="e3"><![CDATA[و بسیاری از آنها با اصول بازار سازگار هستند، آماده هستند تا اجاره های بالاتر را پرداخت کنند، ]]></edu>
+  <edu id="e4"><![CDATA[اما افرادی که درآمد مشابهی دارند، به طور ناگهانی باید بیشتر پرداخت کنند و نمی توانند در همان آپارتمان زندگی کنند، ]]></edu>
+  <edu id="e5"><![CDATA[که به نظر می رسد غیر قابل باور است. فرآیند اعیان سازی، کل مناطق و فرهنگشان را نابود می کند]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

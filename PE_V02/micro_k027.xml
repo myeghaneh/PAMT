@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_k027" topic_id="public_broadcasting_fees_on_demand" stance="pro">
+  <edu id="e1"><![CDATA[هزینه مجوز تلویزیون فقط باید از کسانی که واقعا از برنامه های رادیو تلویزیون دولتی (عمومی) استفاده می کنند اخذ شود.]]></edu>
+  <edu id="e2"><![CDATA[مهمتر از همه، افراد زیادی در آلمان وجود دارند که هزینه را پرداخت می کنند، ]]></edu>
+  <edu id="e3"><![CDATA[هرچند که صرفا از رایانه برای کار استفاده می کنند. با این حال، هزینه ها از همه کسانی که برای معافیت درخواست نمی کنند، صرف نظر از اینکه واقعاً چند دستگاه گیرنده در خانه دارند و چگونه از آنها استفاده می شود، مطالبه می شود.]]></edu>
+  <edu id="e4"><![CDATA[با این حال، بدیهی است که کارمندان مربوط  به هزینه مجوز در موقعیتی نیستند که استفاده از تک تک دستگاه ها را بررسی کنند.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="opp" />
+  <edge id="c5" src="e1" trg="a1" type="seg" />
+  <edge id="c6" src="e2" trg="a2" type="seg" />
+  <edge id="c7" src="e3" trg="a3" type="seg" />
+  <edge id="c8" src="e4" trg="a4" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="sup" />
+  <edge id="c3" src="a3" trg="a1" type="sup" />
+  <edge id="c4" src="a4" trg="a1" type="reb" />
+</arggraph>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b015" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
+  <edu id="e1"><![CDATA[خب، برای من به عنوان یک کارمند این خیلی مفید است که حداقل در تعطیلات آخر هفته بتوانم خریدم را انجام بدهم.]]></edu>
+  <edu id="e2"><![CDATA[مطمئنا،این یعنی افراد دیگر باید  تعطیلات آخر هفته  خود را در مغازه ها کار کنند، ]]></edu>
+  <edu id="e3"><![CDATA[اما آنها می توانند در طول هفته یکی از روزهای خود را خالی کنند و در حالی که من در دفتر کارم گیر کرده افتاده ام، اوقات فراغت خود را بگذرانند.]]></edu>
+  <edu id="e4"><![CDATA[به علاوه، دولت می خواهد من پولم را خرج کنم، و چطور باید این کار را بکنم، ]]></edu>
+  <edu id="e5"><![CDATA[وقتی در روزهایی که من کار نمی کنم، مغازه ها باز نیستند؟]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="reb" />
+  <edge id="c3" src="a3" trg="c2" type="und" />
+  <edge id="c4" src="a4" trg="a1" type="sup" />
+  <edge id="c5" src="a5" trg="c4" type="add" />
+</arggraph>

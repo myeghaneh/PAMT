@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b016" topic_id="increase_weight_of_BA_thesis_in_final_grade" stance="pro">
+  <edu id="e1"><![CDATA[ایده مدرک لیسانس این است که مجموع نمرات تکالیف فردی مختلف را معیار تولید نمره نهایی قرار دهید.]]></edu>
+  <edu id="e2"><![CDATA[این نیز بیشتر شبیه به دنیای واقعی در بازار کار است، جایی که عملکرد تنها در یک بعد مدنظر نیست، ]]></edu>
+  <edu id="e3"><![CDATA[ . اما ثابت است و باید در دوره های طولانی تحویل داده شود.به همین دلیل منطقی است که پایان نامه لیسانس تنها بخش نسبتا کوچکی از نمره نهایی را تشکیل  دهد (15 از 120 واحد).]]></edu>
+  <edu id="e4"><![CDATA[با این حال، تلاش مورد نیاز برای پاس کردن واحدهای با ضریب یکسان به شدت متفاوت است.]]></edu>
+  <edu id="e5"><![CDATA[بنابراین، عاقلانه است که تلاش  لازم را برای پایان نامه نهایی بر اساس ضریب آن تنظیم کنید.]]></edu>
+  <adu id="a1" type="opp" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="opp" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a3" type="sup" />
+  <edge id="c2" src="a2" trg="a3" type="sup" />
+  <edge id="c3" src="a3" trg="a5" type="reb" />
+  <edge id="c4" src="a4" trg="c3" type="und" />
+</arggraph>

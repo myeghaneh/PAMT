@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_k013" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
+  <edu id="e1"><![CDATA[کارمندان سوپرمارکت و افرادی که در مراکز خرید کار می کنند نیز حق  استفاده از تعطیلی روز یکشنبه را دارند.]]></edu>
+  <edu id="e2"><![CDATA[به همین ترتیب، تعطیلات عمومی باید به همان شکلی که هستند باقی بمانند: برای برخی یک روز تفکر و خوداندیشی، برای برخی دیگر یک روز مرخصی با حقوق که از مرخصی استحقاقی سالانه معمول حذف نشده است.]]></edu>
+  <edu id="e3"><![CDATA[از این رو خوب است که مغازه ها در روزهای یکشنبه و تعطیلات رسمی باز نیستند. ]]></edu>
+  <edu id="e4"><![CDATA[با این حال، افرادی که در طول هفته و شنبه ها کار می کنند، یک مشکل دارند: بقیه می توانند روزهای هفته خرید کنند، اما آنها نمی توانند.]]></edu>
+  <edu id="e5"><![CDATA[برای آن دسته از افراد، استفاده از فروشگاه ها در ساعات کاری دیرهنگام که در حال حاضر تا 12 نیمه شب ادامه دارد، جایگزین خوبی است.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="opp" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a3" type="sup" />
+  <edge id="c2" src="a2" trg="a3" type="sup" />
+  <edge id="c4" src="a4" trg="a3" type="reb" />
+  <edge id="c5" src="a5" trg="c4" type="und" />
+</arggraph>

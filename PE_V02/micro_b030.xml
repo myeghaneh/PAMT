@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b030" topic_id="school_uniforms" stance="con">
+  <edu id="e1"><![CDATA[دانش آموزان نباید لباس فرم بپوشند.]]></edu>
+  <edu id="e2"><![CDATA[پوشیدن لباس فرم این مزیت را دارد که از رقابت بر سر نام برندهای تجاری و تبعیض علیه طبقات ضعیف اجتماعی جلوگیری می کند.]]></edu>
+  <edu id="e3"><![CDATA[با این حال، به ندرت کسی دوست دارد خود و فرزندانش یک لباس  فرم استاندارد بپوشند.]]></edu>
+  <edu id="e4"><![CDATA[علاوه براین، چنین لباس هایی نماد انطباق ایدئولوژیک و سرکوب توسعه فردی هستند.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <edge id="c5" src="e1" trg="a1" type="seg" />
+  <edge id="c6" src="e2" trg="a2" type="seg" />
+  <edge id="c7" src="e3" trg="a3" type="seg" />
+  <edge id="c8" src="e4" trg="a4" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="reb" />
+  <edge id="c3" src="a3" trg="c2" type="und" />
+  <edge id="c4" src="a4" trg="a1" type="sup" />
+</arggraph>

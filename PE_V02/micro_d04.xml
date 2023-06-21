@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_d04">
+  <edu id="e1"><![CDATA[نرم افزار ضد ویروس  کاربران رایانه را از خطرات اینترنت محافظت می کند.]]></edu>
+  <edu id="e2"><![CDATA[به همین دلیل است که همه باید یک برنامه ضد ویروس روی دستگاه ویندوز خود داشته باشند.]]></edu>
+  <edu id="e3"><![CDATA[مسلما آنها همیشه از ویروسی شدن سیستم جلوگیری نمی کنند، ]]></edu>
+  <edu id="e4"><![CDATA[زیرا فقط می توانند به تهدیدات شناخته شده عمومی واکنش نشان دهند.]]></edu>
+  <edu id="e5"><![CDATA[.اما هنگام مواجهه با یک ویروس جدید، همه اطلاعات مربوط به آن را در کوتاه ترین زمان از طریق به روز رسانی خودکار دریافت می کنند]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="opp" />
+  <adu id="a4" type="opp" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a2" type="sup" />
+  <edge id="c3" src="a3" trg="a1" type="reb" />
+  <edge id="c4" src="a4" trg="a3" type="sup" />
+  <edge id="c5" src="a5" trg="a2" type="sup" />
+</arggraph>

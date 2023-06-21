@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b038" topic_id="school_uniforms" stance="pro">
+  <edu id="e1"><![CDATA[لباس فرم مدرسه باید دوباره در مدارس ما باب شود.]]></edu>
+  <edu id="e2"><![CDATA[این کار حداقل امکان سطحی از توازن را در جامعه به شدت اقتصادزده ما فراهم می کند]]></edu>
+  <edu id="e3"><![CDATA[که ممکن است تبعیض  مالی  یا/و اجتماعی کودکان محروم را کاهش دهد.]]></edu>
+  <edu id="e4"><![CDATA[علاوه بر این، این امر یافتن افراد فراری را تسهیل می کند، کسانی که ممکن است بخواهند با شرکت در کلاس های کمتری از مدرسه فرار کنند.]]></edu>
+  <edu id="e5"><![CDATA[لباس های همیشه یکسان، ممکن است  همراه با ترس از از دست دادن فردیت افراد باشد، اما امروز چیزی  که واقعا مدارس  فاقد آن هستند، ]]></edu>
+  <edu id="e6"><![CDATA[بیشتر یک حس واقعی از (تعلق به) جامعه است که احتمالا با ظاهر یکسان و جمعی تقویت می شود.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="opp" />
+  <adu id="a6" type="pro" />
+  <edge id="c7" src="e1" trg="a1" type="seg" />
+  <edge id="c8" src="e2" trg="a2" type="seg" />
+  <edge id="c9" src="e3" trg="a3" type="seg" />
+  <edge id="c10" src="e4" trg="a4" type="seg" />
+  <edge id="c11" src="e5" trg="a5" type="seg" />
+  <edge id="c12" src="e6" trg="a6" type="seg" />
+  <edge id="c2" src="a2" trg="a3" type="sup" />
+  <edge id="c3" src="a3" trg="a1" type="sup" />
+  <edge id="c4" src="a4" trg="a1" type="sup" />
+  <edge id="c5" src="a5" trg="a1" type="reb" />
+  <edge id="c6" src="a6" trg="c5" type="und" />
+</arggraph>

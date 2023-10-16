@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b028" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1"><![CDATA[دانشگاه های آلمان نباید تحت هیچ شرایطی هزینه های تحصیل از دانشجویان دریافت کنند.]]></edu>
+  <edu id="e2"><![CDATA[این کار مانع دسترسی کسانی می شود که از لحاظ مالی ضعیف تر هستند.]]></edu>
+  <edu id="e3"><![CDATA[اهداف پیش بینی شده از اخذ هزینه های تحصیل را می توان به روش های دیگری به دست آورد.]]></edu>
+  <edu id="e4"><![CDATA[ابزارهای دیگری را برای تشویق دانشجویان به داشتن دیسیپلین بهتر و سختگیرانه تر در طول تحصیل می توان وضع کرد.]]></edu>
+  <edu id="e5"><![CDATA[از نظر تأمین بودجه هم باید در نظر داشت، هزینه هایی که دانشجویانی که از ایالت های دیگر می آیند متحمل می شوند را چطور می توان جبران کرد ]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="sup" />
+  <edge id="c3" src="a3" trg="a1" type="sup" />
+  <edge id="c4" src="a4" trg="a3" type="sup" />
+  <edge id="c5" src="a5" trg="a3" type="sup" />
+</arggraph>

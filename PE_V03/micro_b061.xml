@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b061" topic_id="higher_dog_poo_fines" stance="con">
+  <edu id="e1"><![CDATA[مجازات های بالاتر برای رها کردن مدفوع سگ، تا زمانی که پرسنل کافی برای اجرای آنها وجود نداشته باشند، بی معنی است . ]]></edu>
+  <edu id="e2"><![CDATA[این مجازات ها ممکن است در مواردی به عنوان بازدارنده عمل کنند؛ ]]></edu>
+  <edu id="e3"><![CDATA[به طور کلی، یک محیط تمیز و تاثیر الگوی دیگران، بیشتر احتمال دارد صاحبان سگ راتشویق کند 
+مدفوع سگ شان را جمع کنند تا جریمه های بالقوه.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <edge id="c4" src="e1" trg="a1" type="seg" />
+  <edge id="c5" src="e2" trg="a2" type="seg" />
+  <edge id="c6" src="e3" trg="a3" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="reb" />
+  <edge id="c3" src="a3" trg="a1" type="sup" />
+</arggraph>

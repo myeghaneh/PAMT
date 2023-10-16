@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_k011" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1"><![CDATA[افزایش اجاره بها پس از اجاره مجدد بد نیست، ]]></edu>
+  <edu id="e2"><![CDATA[البته فقط به مقدار کم. اما اگر اجاره به طور ناگهانی ۱۰۰ یا ۲۰۰ یورو افزایش یابد، بسیار بد است.]]></edu>
+  <edu id="e3"><![CDATA[با این نوع مبالغ، تردید می کنید که آیا واقعاً می خواهید در آپارتمان بمانید یا خیر.]]></edu>
+  <edu id="e4"><![CDATA[اگر افزایش اجاره وجود داشته باشد، باید سقفی نیز برای جلوگیری از غافلگیری وجود داشته باشد.]]></edu>
+  <edu id="e5"><![CDATA[این به مالکان کمک می کند، ]]></edu>
+  <edu id="e6"><![CDATA[زیرا آنها می توانند هزینه های خود را از طریق افزایش اجاره تنظیم کنند، ]]></edu>
+  <edu id="e7"><![CDATA[و همچنین به مستاجرین، ]]></edu>
+  <edu id="e8"><![CDATA[زیرا می توانند برای افزایش حداکثر اجاره برنامه ریزی کنند.]]></edu>
+  <edu id="e9"><![CDATA[این که مالکان کمی در اداره اموال خود محدودیت دارند، مشکلی نخواهد بود، ]]></edu>
+  <edu id="e10"><![CDATA[زیرا در نهایت آنها دست بالا را دارند )؟؟؟؟؟]]></edu>
+  <adu id="a1" type="opp" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <adu id="a6" type="pro" />
+  <adu id="a7" type="pro" />
+  <adu id="a8" type="pro" />
+  <adu id="a9" type="pro" />
+  <adu id="a10" type="pro" />
+  <edge id="c10" src="e1" trg="a1" type="seg" />
+  <edge id="c11" src="e2" trg="a2" type="seg" />
+  <edge id="c12" src="e3" trg="a3" type="seg" />
+  <edge id="c13" src="e4" trg="a4" type="seg" />
+  <edge id="c14" src="e5" trg="a5" type="seg" />
+  <edge id="c15" src="e6" trg="a6" type="seg" />
+  <edge id="c16" src="e7" trg="a7" type="seg" />
+  <edge id="c17" src="e8" trg="a8" type="seg" />
+  <edge id="c18" src="e9" trg="a9" type="seg" />
+  <edge id="c19" src="e10" trg="a10" type="seg" />
+  <edge id="c1" src="a1" trg="a4" type="reb" />
+  <edge id="c2" src="a2" trg="a4" type="sup" />
+  <edge id="c3" src="a3" trg="a2" type="sup" />
+  <edge id="c4" src="a5" trg="a4" type="sup" />
+  <edge id="c5" src="a6" trg="a5" type="sup" />
+  <edge id="c6" src="a7" trg="a4" type="sup" />
+  <edge id="c7" src="a8" trg="a7" type="sup" />
+  <edge id="c8" src="a9" trg="a4" type="sup" />
+  <edge id="c9" src="a10" trg="a9" type="sup" />
+</arggraph>

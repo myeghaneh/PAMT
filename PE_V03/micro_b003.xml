@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b003" topic_id="health_insurance_cover_complementary_medicine" stance="con">
+  <edu id="e1"><![CDATA[شرکت های بیمه درمانی نباید درمان های پزشکی تکمیلی را تحت پوشش قرار دهند]]></edu>
+  <edu id="e2"><![CDATA[مگر اینکه اثر وعده داده شده و مزایای پزشکی آن به طور دقیق ثابت شده باشد]]></edu>
+  <edu id="e3"><![CDATA[با این حال، دربسیاری موارد به اثربخشی درمان های مکمل اطمینانی نیست.]]></edu>
+  <edu id="e4"><![CDATA[بیماران اغلب تنها بعد از چنین درمان هایی شکایت ها و عوارض خود را گزارش می دهند]]></edu>
+  <edu id="e5"><![CDATA[اما تا زمانی که چگونگی عملکرد این درمان ها مشخص نیست هزینه ها باید به جای آن برای درمان های مطمئن تر صرف شود]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="opp" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="reb" />
+  <edge id="c3" src="a3" trg="a2" type="reb" />
+  <edge id="c4" src="a4" trg="a1" type="reb" />
+  <edge id="c5" src="a5" trg="c4" type="und" />
+</arggraph>

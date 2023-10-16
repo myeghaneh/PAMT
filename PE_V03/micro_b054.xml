@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b054" topic_id="partial_housing_development_at_Tempelhofer_Feld" stance="pro">
+  <edu id="e1"><![CDATA[سال هاست که در برلین کمبود مسکن وجود دارد، ]]></edu>
+  <edu id="e2"><![CDATA[به طوری که استفاده از "تمپلهوفر فلد"  به عنوان فضای زندگی، محلی که فضای باز زیادی ارائه می دهد و در حال حاضر خیلی کم توسعه یافته، ایده ای منطقی است.]]></edu>
+  <edu id="e3"><![CDATA[از آنجا که منطقه متعلق به دولت فدرال یا فدراسیون است، ]]></edu>
+  <edu id="e4"><![CDATA[حتی می تواند برای تأمین مسکن اجتماعی با اجاره مقرون به صرفه استفاده شود. ]]></edu>
+  <edu id="e5"><![CDATA[البته در حال حاضر این منطقه تبدیل به یک پارک تفریحی جذاب با مناطق ورزشی برای بسیاری از بازدید کنندگان و برلینی ها، به ویژه در بهار و تابستان شده است.]]></edu>
+  <edu id="e6"><![CDATA[.با این حال، اگر بتوان حد وسطی بین استفاده از این فضای سبز و ایجاد مسکن پیدا کرد، این زمین باید قطعا برای ساخت و ساز مسکونی در دسترس قرار گیرد]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="opp" />
+  <adu id="a6" type="pro" />
+  <edge id="c7" src="e1" trg="a1" type="seg" />
+  <edge id="c8" src="e2" trg="a2" type="seg" />
+  <edge id="c9" src="e3" trg="a3" type="seg" />
+  <edge id="c10" src="e4" trg="a4" type="seg" />
+  <edge id="c11" src="e5" trg="a5" type="seg" />
+  <edge id="c12" src="e6" trg="a6" type="seg" />
+  <edge id="c1" src="a1" trg="a2" type="sup" />
+  <edge id="c2" src="a2" trg="a6" type="sup" />
+  <edge id="c3" src="a3" trg="a4" type="sup" />
+  <edge id="c4" src="a4" trg="a2" type="sup" />
+  <edge id="c5" src="a5" trg="c2" type="und" />
+</arggraph>

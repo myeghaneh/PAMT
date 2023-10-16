@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_d15">
+  <edu id="e1"><![CDATA[هر روز مسافران در مترو، قطار و اتوبوس توسط اوباش و مست ها مورد آزار و اذیت قرار می گیرند.]]></edu>
+  <edu id="e2"><![CDATA[همچنین قوانین مربوط به خدمات حمل و نقل عمومی به ندرت رعایت می شود.]]></edu>
+  <edu id="e3"><![CDATA[به همین دلیل است که ما نیاز به حضور بیشتر پلیس در حمل و نقل عمومی داریم، ]]></edu>
+  <edu id="e4"><![CDATA[حتی اگر آنها در واقع  نیروهای امنیتی به خدمت گرفته شده توسط شرکت های خصوصی باشند.]]></edu>
+  <edu id="e5"><![CDATA[مسافران قطعا احساس امنیت بیشتر خواهند کرد.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="opp" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a3" type="sup" />
+  <edge id="c2" src="a2" trg="a3" type="sup" />
+  <edge id="c4" src="a4" trg="c2" type="und" />
+  <edge id="c5" src="a5" trg="a3" type="sup" />
+</arggraph>

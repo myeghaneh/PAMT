@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b002" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1"><![CDATA[این روزها به سختی می توان در محله های "فریدریش شاین"یا "نیوکلن" قدم زد بی آن که دائم مراقب باشیم پایمان روی مدفوع سگ نرود]]></edu>
+  <edu id="e2"><![CDATA[و وقتی بد شانسی می آورید  و  پایتان روی یکی از این "معادن زمینی" می رود، مجبورید بعدش حسابی خودتان را بشویید و پاک کنید.]]></edu>
+  <edu id="e3"><![CDATA[بنابراین جریمه های سنگین، اقدام مناسبی در برابر صاحبان سگ های بی توجه، تنبل یا بی فکر است.]]></edu>
+  <edu id="e4"><![CDATA[البته، ابتدا این صاحبان سگ باید در حین ارتکاب به جرم توسط ماموران انتظامی مشاهده و جریمه شوند]]></edu>
+  <edu id="e5"><![CDATA[!وقتی مجبور باشند آن ها را در جیب خودشان بگذارند، تنبلی شان هم از بین می رود]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="opp" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a3" type="sup" />
+  <edge id="c2" src="a2" trg="a3" type="sup" />
+  <edge id="c4" src="a4" trg="a3" type="reb" />
+  <edge id="c5" src="a5" trg="c4" type="und" />
+</arggraph>

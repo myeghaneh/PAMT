@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b053" topic_id="health_insurance_cover_complementary_medicine" stance="con">
+  <edu id="e1"><![CDATA[بسیاری از مردم شاهد این امر هستند که پزشکی مکمل نشانه های بیماری و درد آنها را قطعا کاهش داده است   .]]></edu>
+  <edu id="e2"><![CDATA[با این وجود هیچ اطلاعات اثبات شده ای وجود ندارد که این بهبودی صرفا به دلیل اثر "دارونما" نیست.]]></edu>
+  <edu id="e3"><![CDATA[علاوه بر این، بسیاری از فعالیت‌ها در این زمینه حرفه‌های غیرقانونی هستند، ]]></edu>
+  <edu id="e4"><![CDATA[به این معنی که افراد حقه‌باز و متقلب می‌توانند این خدمات ناشناخته را برای بیماران انجام دهند.]]></edu>
+  <edu id="e5"><![CDATA[به همین دلیل است که شرکت های بیمه پزشکی نباید این گونه درمان ها را پوشش دهند.]]></edu>
+  <edu id="e6"><![CDATA[می توان تصور کرد که سرمایه گذاری بیشتر در آموزش و کنترل این بخش شغلی از سوی دولت صورت بگیرد.]]></edu>
+  <adu id="a1" type="opp" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <adu id="a6" type="opp" />
+  <edge id="c7" src="e1" trg="a1" type="seg" />
+  <edge id="c8" src="e2" trg="a2" type="seg" />
+  <edge id="c9" src="e3" trg="a3" type="seg" />
+  <edge id="c10" src="e4" trg="a4" type="seg" />
+  <edge id="c11" src="e5" trg="a5" type="seg" />
+  <edge id="c12" src="e6" trg="a6" type="seg" />
+  <edge id="c1" src="a1" trg="a5" type="reb" />
+  <edge id="c2" src="a2" trg="c1" type="und" />
+  <edge id="c3" src="a3" trg="a4" type="sup" />
+  <edge id="c4" src="a4" trg="a5" type="sup" />
+  <edge id="c6" src="a6" trg="a5" type="reb" />
+</arggraph>

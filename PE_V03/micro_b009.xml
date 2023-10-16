@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b009" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1"><![CDATA[این ناعادلانه و غیرقابل انکار است که مستاجران جدید مجبور به پرداخت اجاره بسیار بالاتری از ساکنان قبلی هستند.]]></edu>
+  <edu id="e2"><![CDATA[واضح است که صاحبخانه باید قبل از اجاره جدید برای برخی از تعمیرات هزینه کند.]]></edu>
+  <edu id="e3"><![CDATA[اما مطمئنا این هزینه ها را می توان با افزایش حداقل اجاره در کل طول دوره اجاره پوشش داد.]]></edu>
+  <edu id="e4"><![CDATA[به هر حال نیازی به افزایش نرخ اجاره به عنوان سود کافی در مقایسه با مبلغ پایه در هر سری اجاره جدید نیست.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <edge id="c5" src="e1" trg="a1" type="seg" />
+  <edge id="c6" src="e2" trg="a2" type="seg" />
+  <edge id="c7" src="e3" trg="a3" type="seg" />
+  <edge id="c8" src="e4" trg="a4" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="reb" />
+  <edge id="c3" src="a3" trg="c2" type="und" />
+  <edge id="c4" src="a4" trg="a1" type="sup" />
+</arggraph>

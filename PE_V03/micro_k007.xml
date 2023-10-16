@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_k007" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
+  <edu id="e1"><![CDATA[سوپرمارکت ها و مراکز خرید باید مجاز باشند یکشنبه و تعطیلات به صورت اختیاری کار کنند.]]></edu>
+  <edu id="e2"><![CDATA[به این ترتیب، روزهای خرید یکشنبه بهتر در طول سال پخش می شوند.]]></edu>
+  <edu id="e3"><![CDATA[همچنین خیابان ها و مغازه ها احتمالا خلوت تر می شوند]]></edu>
+  <edu id="e4"><![CDATA[چرا که همه انها دریک روز یکسان باز نخواهند بود.]]></edu>
+  <edu id="e5"><![CDATA[با این حال، در صورت اجرای این طرح، افراد به خوبی نمی دانند که کدام مغازه در یک روز معین باز است.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="opp" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="sup" />
+  <edge id="c3" src="a3" trg="a1" type="sup" />
+  <edge id="c4" src="a4" trg="a3" type="sup" />
+  <edge id="c5" src="a5" trg="a1" type="reb" />
+</arggraph>

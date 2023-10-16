@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b018" topic_id="health_insurance_cover_complementary_medicine" stance="con">
+  <edu id="e1"><![CDATA[بیمار انتخاب می کند که به کدام پزشک مراجعه کند]]></edu>
+  <edu id="e2"><![CDATA[با این حال، بودجه شرکت های بیمه درمانی یک امتیاز مشترک برای همه پرداخت کنندگان حق بیمه است.]]></edu>
+  <edu id="e3"><![CDATA[از این بیمه ها نباید صرفا بر اساس ترجیحات شخصی استفاده شود]]></edu>
+  <edu id="e4"><![CDATA[اثربخشی بسیاری از داروهای طبیعی مشخص نشده است.]]></edu>
+  <edu id="e5"><![CDATA[بنابراین هزینه درمان های ناشناخته و غیرقابل اثبات توسط دکترهای طب سنتی، نباید توسط شرکت های بیمه پرداخت شود.]]></edu>
+  <adu id="a1" type="opp" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a3" type="reb" />
+  <edge id="c2" src="a2" trg="a3" type="sup" />
+  <edge id="c3" src="a3" trg="a5" type="sup" />
+  <edge id="c4" src="a4" trg="c3" type="add" />
+</arggraph>

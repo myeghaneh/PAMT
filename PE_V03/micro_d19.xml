@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_d19">
+  <edu id="e1"><![CDATA[کمک مالی به بانک ها برای نجات از ورشکستگی بسیار بسیار پر هزینه است.]]></edu>
+  <edu id="e2"><![CDATA[به عنوان مثال، نجات بانک  ورشکسته " املاک و مستغلات هیپو" مبلغی سه رقمی از میلیاردها دلار روی دست مالیات دهندگان گذاشت.]]></edu>
+  <edu id="e3"><![CDATA[به همین دلیل ما نباید دیگر اجازه دهیم بانک ها به این ترتیب از ورشکستگی نجات پیدا کنند.]]></edu>
+  <edu id="e4"><![CDATA[سیاستمداران سعی دارند ما را با این واقعیت آرام کنند که در واقع فقط مقدار کمی از این همه پول خرج شده است.]]></edu>
+  <edu id="e5"><![CDATA[اما حتی با این مقدار کم  شما می توانید بسیاری کارهای مفید دیگری انجام دهید.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="opp" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a3" type="sup" />
+  <edge id="c2" src="a2" trg="a1" type="exa" />
+  <edge id="c4" src="a4" trg="a1" type="reb" />
+  <edge id="c5" src="a5" trg="c4" type="und" />
+</arggraph>

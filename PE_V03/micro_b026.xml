@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b026" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1"><![CDATA[شرکت های بیمه درمانی عمومی  باید درمان با پزشکان طب سنتی و جایگزین را نیز پوشش دهند.]]></edu>
+  <edu id="e2"><![CDATA[درباره روش های درمان و موفقیت آنها به طور کامل تحقیق نشده و اثرشان اثبات نشده است.]]></edu>
+  <edu id="e3"><![CDATA[با این حال، بسیاری از بیماران به لحاظ ذهنی تسکین می یابند یا از زیر بار مشکلاتشان رها می شوند، ]]></edu>
+  <edu id="e4"><![CDATA[که در نهایت موجب صرفه جویی در هزینه های درمان های متداول و دارو می شود.]]></edu>
+  <edu id="e5"><![CDATA[با این حال، طب سنتی در بسیاری از موارد موفق نبوده]]></edu>
+  <edu id="e6"><![CDATA[و به علاوه، خطرات و عوارض جانبی قابل توجهی را به دنبال دارد.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <adu id="a6" type="pro" />
+  <edge id="c7" src="e1" trg="a1" type="seg" />
+  <edge id="c8" src="e2" trg="a2" type="seg" />
+  <edge id="c9" src="e3" trg="a3" type="seg" />
+  <edge id="c10" src="e4" trg="a4" type="seg" />
+  <edge id="c11" src="e5" trg="a5" type="seg" />
+  <edge id="c12" src="e6" trg="a6" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="reb" />
+  <edge id="c3" src="a3" trg="c2" type="und" />
+  <edge id="c4" src="a4" trg="a1" type="sup" />
+  <edge id="c5" src="a5" trg="a1" type="sup" />
+  <edge id="c6" src="a6" trg="a1" type="sup" />
+</arggraph>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b012" topic_id="school_uniforms" stance="pro">
+  <edu id="e1"><![CDATA[برخی ممکن است ایده ی لباس فرم مدرسه را از مد افتاده بدانند]]></edu>
+  <edu id="e2"><![CDATA[یا آن را به عنوان مداخله ای بیش از حد در فضای تصمیم گیری دانش آموزان و والدین در نظر بگیرند.]]></edu>
+  <edu id="e3"><![CDATA[ با این حال، امروزه موضوع این است که دانش آموزان مدارس "بدون لباس فرم"  لباس هایی از برند تجاری خاصی می پوشند.]]></edu>
+  <edu id="e4"><![CDATA[یک لباس فرم کاربردی با طراحی ساده حتی تصویر کلی بصری یک مدرسه را متوازن می کند و توجه را به شخصیت و دستاوردهای دانش آموزان هدایت می کند و نه قدرت خرید آنها]]></edu>
+  <adu id="a1" type="opp" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <edge id="c5" src="e1" trg="a1" type="seg" />
+  <edge id="c6" src="e2" trg="a2" type="seg" />
+  <edge id="c7" src="e3" trg="a3" type="seg" />
+  <edge id="c8" src="e4" trg="a4" type="seg" />
+  <edge id="c1" src="a1" trg="a4" type="reb" />
+  <edge id="c2" src="a2" trg="a4" type="reb" />
+  <edge id="c3" src="a3" trg="c2" type="und" />
+</arggraph>

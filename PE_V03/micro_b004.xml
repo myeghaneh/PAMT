@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b004" topic_id="public_broadcasting_fees_on_demand" stance="con">
+  <edu id="e1"><![CDATA[البته تعدادی از برنامه های پخش عمومی هستند که ارزش صدور مجوز را ندارند؛]]></edu>
+  <edu id="e2"><![CDATA[مثل "موزیکانتن اشتادل" و یا سریال های آبکی تلویزیونی که مخاطب های خاص دارند]]></edu>
+  <edu id="e3"><![CDATA[با این وجود، همه باید به طور مساوی از برنامه های بخش عمومی سهم ببریم؛]]></edu>
+  <edu id="e4"><![CDATA[و برای این ما به رسانه های مستقل و عمومی نیاز داریم.]]></edu>
+  <edu id="e5"><![CDATA[علاوه بر این، ما می خواهیم نه از منظر دولت و نه از طریق کارآفرینان مرفه رسانه ای دیدگاه های خود را شکل دهیم]]></edu>
+  <adu id="a1" type="opp" />
+  <adu id="a2" type="opp" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="pro" />
+  <edge id="c6" src="e1" trg="a1" type="seg" />
+  <edge id="c7" src="e2" trg="a2" type="seg" />
+  <edge id="c8" src="e3" trg="a3" type="seg" />
+  <edge id="c9" src="e4" trg="a4" type="seg" />
+  <edge id="c10" src="e5" trg="a5" type="seg" />
+  <edge id="c1" src="a1" trg="a3" type="reb" />
+  <edge id="c2" src="a2" trg="a3" type="reb" />
+  <edge id="c4" src="a4" trg="a3" type="sup" />
+  <edge id="c5" src="a5" trg="a4" type="sup" />
+</arggraph>

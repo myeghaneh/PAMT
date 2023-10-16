@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_k008" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1"><![CDATA[اگر جریمه های بیشتری برای رها کردن مدفوع سگ در پیاده رو وجود داشته باشد، احتمالا کمتر مدفوع سگ آنجا باقی می ماند، ]]></edu>
+  <edu id="e2"><![CDATA[که به نوبه خود کمک می کند پیاده روهایی تمیزتر داشته باشیم.]]></edu>
+  <edu id="e3"><![CDATA[جریمه های بالاتر ممکن است ایده آل نباشند، مخصوصا برای افراد به لحاظ مالی ضعیف تر، ]]></edu>
+  <edu id="e4"><![CDATA[اما تمیز کردن و برداشتن مدفوع سگ ها تعهد صاحبان آنان است.]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="opp" />
+  <adu id="a4" type="pro" />
+  <edge id="c5" src="e1" trg="a1" type="seg" />
+  <edge id="c6" src="e2" trg="a2" type="seg" />
+  <edge id="c7" src="e3" trg="a3" type="seg" />
+  <edge id="c8" src="e4" trg="a4" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="sup" />
+  <edge id="c3" src="a3" trg="a1" type="reb" />
+  <edge id="c4" src="a4" trg="c3" type="und" />
+</arggraph>

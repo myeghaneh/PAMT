@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arggraph id="micro_b041" topic_id="stricter_regulation_of_intelligence_services" stance="pro">
+  <edu id="e1"><![CDATA[باید به منظور جلوگیری از نظارت بیش از حد سرویس های اطلاعاتی شدیدا تحت نظر قرار بگیرند.]]></edu>
+  <edu id="e2"><![CDATA[علاوه بر این، سرویس های اطلاعاتی تمایل دارند زندگی خودشان  را بسازند و توسعه دهند (دولت در دولت) که برای دولت های دموکراتیک غیر مسئولانه است.]]></edu>
+  <edu id="e3"><![CDATA[علاوه بر این، سرویس های اطلاعاتی به طور گسترده در حریم خصوصی شهروندان مداخله می کنند]]></edu>
+  <edu id="e4"><![CDATA[و بنابراین باید برای جلوگیری از سوء استفاده بیشتر مورد بررسی قرار گیرند.]]></edu>
+  <edu id="e5"><![CDATA[با وجود این، کنترل پارلمانی کار سرویس های اطلاعاتی مخاطراتی به همراه دارد، ]]></edu>
+  <edu id="e6"><![CDATA[زیرا این کار مخفی بودن و امنیت داده های محرمانه و خبرچین ها را به خطر می اندازد]]></edu>
+  <adu id="a1" type="pro" />
+  <adu id="a2" type="pro" />
+  <adu id="a3" type="pro" />
+  <adu id="a4" type="pro" />
+  <adu id="a5" type="opp" />
+  <adu id="a6" type="opp" />
+  <edge id="c7" src="e1" trg="a1" type="seg" />
+  <edge id="c8" src="e2" trg="a2" type="seg" />
+  <edge id="c9" src="e3" trg="a3" type="seg" />
+  <edge id="c10" src="e4" trg="a4" type="seg" />
+  <edge id="c11" src="e5" trg="a5" type="seg" />
+  <edge id="c12" src="e6" trg="a6" type="seg" />
+  <edge id="c2" src="a2" trg="a1" type="sup" />
+  <edge id="c3" src="a3" trg="a1" type="sup" />
+  <edge id="c4" src="a4" trg="a1" type="sup" />
+  <edge id="c5" src="a5" trg="a1" type="reb" />
+  <edge id="c6" src="a6" trg="a5" type="sup" />
+</arggraph>

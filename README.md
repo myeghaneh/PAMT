@@ -1,7 +1,8 @@
 # Neural Mining of Persian Short Argumentative Texts
 First Persian (Farsi) Short Argumentative Text Coprus 
 ## About
-This repository contains "Persian argumentative microtext corpus" (PAMT) and the code related to the paper "Neural Mining of Persian Short Argumentative Texts" (M.Yeghaneh Abkenar, M.Stede).
+This repository contains "Persian argumentative microtext corpus" (PAMT) and the code related to the paper "Neural Mining of Persian Short Argumentative Texts" (M.Yeghaneh Abkenar, M.Stede). Here is the link to the original corpus in German and English:
+https://github.com/peldszus/arg-microtexts
 
 # Literature
 Argumentation mining (AM) is concerned with extracting arguments from texts and classifying the elements (e.g.,

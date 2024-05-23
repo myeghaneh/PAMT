@@ -23,7 +23,7 @@ same subtask in AMT and its other translations
 
 
 If you would use PAMT, Please cite this paper. 
-
+'''
 @inproceedings{abkenar-2024-persian,
     author = "Abkenar, Mohammad Yeghaneh and Stede, Manfred",
     title = "Neural Mining of Persian Short Argumentative Texts",
@@ -34,3 +34,4 @@ If you would use PAMT, Please cite this paper.
     note = "To appear",
     keywords = ""
 }
+'''

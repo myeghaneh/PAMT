@@ -22,3 +22,15 @@ sequence tagger. The results that we obtain with the second approach are compara
 same subtask in AMT and its other translations
 
 
+If you would use PAMT, Please cite this paper. 
+
+@inproceedings{abkenar-2024-persian,
+    author = "Abkenar, Mohammad Yeghaneh and Stede, Manfred",
+    title = "Neural Mining of Persian Short Argumentative Texts",
+    booktitle = "Proceedings of the 2nd Workshop on Resources and Technologies for Indigenous, Endangered and Lesser-resourced Languages in Eurasia (LREC - EURALI)",
+    month = "May",
+    year = "2024",
+    address = "Turin, Italy",
+    note = "To appear",
+    keywords = ""
+}

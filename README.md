@@ -22,7 +22,7 @@ sequence tagger. The results that we obtain with the second approach are compara
 same subtask in AMT and its other translations
 
 
-If you would use PAMT, Please cite this paper. 
+In case you use the PAMT, Please cite this paper. 
 ```
 @inproceedings{abkenar-2024-persian,
     author = "Abkenar, Mohammad Yeghaneh and Stede, Manfred",

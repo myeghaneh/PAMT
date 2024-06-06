@@ -24,14 +24,12 @@ same subtask in AMT and its other translations
 
 In case you use the PAMT, Please cite this paper. 
 ```
-@inproceedings{abkenar-2024-persian,
-    author = "Abkenar, Mohammad Yeghaneh and Stede, Manfred",
-    title = "Neural Mining of Persian Short Argumentative Texts",
-    booktitle = "Proceedings of the 2nd Workshop on Resources and Technologies for Indigenous, Endangered and Lesser-resourced Languages in Eurasia (LREC - EURALI)",
-    month = "May",
-    year = "2024",
-    address = "Turin, Italy",
-    note = "To appear",
-    keywords = ""
+@inproceedings{abkenar2024neural,
+  title={Neural Mining of Persian Short Argumentative Texts},
+  author={Abkenar, Mohammad Yeghaneh and Stede, Manfred},
+  booktitle={Proceedings of the 2nd Workshop on Resources and Technologies for Indigenous, Endangered and Lesser-resourced Languages in Eurasia (EURALI)@ LREC-COLING 2024},
+  pages={30--35},
+  year={2024}
 }
+
 ```
